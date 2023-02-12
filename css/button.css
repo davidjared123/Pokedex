@@ -1,0 +1,33 @@
+.btn {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 48px;
+  border: 2px solid #e73636;
+  transition: all 0.3s ease;
+}
+
+.btn::after {
+  content: "\279C";
+  font-size: 18px;
+  color: #e73636;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  border-color: #14519f;
+}
+
+.btn:hover::after {
+  color: #14519f;
+}
+
+ /* transform: rotate(180deg); */
+ .button_prev {
+  margin: 0 10px;
+  transform: rotate(180deg);
+}
+
+.button_prev::after {
+  content: "\279C";
+}
